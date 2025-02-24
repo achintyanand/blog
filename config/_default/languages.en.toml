@@ -16,7 +16,6 @@ title = "The Personal Blog"
 
 [params.author]
    name = "Achintyanand Singh"
-#  email = "youremail@example.com"
    image = "img/profile.png"
 #   imageQuality = 96
    headline = "I'm a life long learner."
