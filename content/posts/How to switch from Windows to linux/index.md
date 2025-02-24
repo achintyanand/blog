@@ -3,9 +3,6 @@ title: "How to Switch from Windows to Linux"
 date: 2025-02-15
 draft: false
 description: "Step by Step process to switch from windows to linux."
-tags:
-    Linux
-    Tech
 ---
 # How to Switch from Windows to Linux
 
