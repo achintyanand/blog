@@ -3,6 +3,8 @@ title: "How Social Media is Changing the Way We Think"
 date: 2025-02-24
 draft: false
 description: "Article about the effects of Social Media"
+tags:
+    Social Media
 ---
 # How Social Media is Changing the Way We Think
 
