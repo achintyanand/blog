@@ -16,7 +16,7 @@
       
       <guid>//localhost:1313/posts/how-social-media-is-changing-the-way-we-think/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/how-social-media-is-changing-the-way-we-think/featured.png" />
     </item>
     
     <item>
