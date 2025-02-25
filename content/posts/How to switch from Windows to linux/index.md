@@ -10,6 +10,8 @@ Switching from Windows to Linux is an exciting step toward learning more about h
 
 With **Windows 10 reaching end of life in 2025** and **Windows 11 not being supported on many older computers**, now may be the perfect time to make the switch to Linux, which can run on a wide range of hardware.
 
+<img class= "thumbnailshadow" src= "img/bsod.png">
+
 ## 1. Choose a Linux Distribution (Distro)
 
 Linux comes in many different versions, known as distributions (distros). Some of the most popular beginner-friendly distros include:
@@ -20,6 +22,8 @@ Linux comes in many different versions, known as distributions (distros). Some o
 - **Debian**: Stable and reliable, but may require more technical know-how.
 
 You can try different ones with live USBs (without installing them) to see which you like best.
+
+<img class= "thumbnailshadow" src= "img/Distro.png">
 
 ## 2. Create a Backup
 
