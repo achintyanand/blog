@@ -34,6 +34,8 @@ Before making any changes, **back up all your important data** (documents, photo
 - Download the ISO image of your selected Linux distro from its official website.
 - Use a tool like **Rufus** (Windows) or **Balena Etcher** (cross-platform) to create a bootable USB drive.
 
+<img class= "thumbnailshadow" src= "img/Rufus.png">
+
 ## 4. Test Linux Without Installing (Optional)
 
 - Boot your computer from the USB drive by selecting the USB as the boot device in the BIOS/UEFI settings (usually accessible by pressing **F2**, **F12**, or **ESC** during startup).
@@ -48,6 +50,8 @@ Once you're ready to install, follow these steps:
 3. **Choose the installation type**: If you're completely replacing Windows, choose the option to erase the disk and install Linux. If you want to keep Windows and create a dual-boot system, choose the option to install alongside Windows.
 4. **Set your timezone, username, and password**.
 5. Wait for the installation to complete. This process may take a while, depending on your hardware.
+
+<img class= "thumbnailshadow" src= "img/Loading.png">
 
 ## 6. Set Up Your System
 
@@ -73,7 +77,6 @@ The Linux terminal is a powerful tool. You'll likely use it for tasks like updat
 
 - **Update your system**: `sudo apt update && sudo apt upgrade` (for Ubuntu/Debian-based distros).
 - **Install software**: `sudo apt install <software-name>`.
-- **Check system info**: `uname -r`.
 
 Familiarize yourself with the **file system**. Linux has a different structure than Windows, but it’s fairly easy to get used to.
 
