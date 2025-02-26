@@ -65,6 +65,8 @@ After the installation, you'll need to install any software you want, such as br
 
 You can usually install software using a package manager like `apt` (for Ubuntu/Debian-based distros) or `dnf` (for Fedora).
 
+<img class= "thumbnailshadow" src= "img/apt.png">
+
 ## 7. Install Additional Drivers (If Necessary)
 
 Linux usually works well with most hardware out-of-the-box, but sometimes you'll need to install proprietary drivers (like for graphics cards or Wi-Fi).
