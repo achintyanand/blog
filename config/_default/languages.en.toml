@@ -23,5 +23,6 @@ title = "The Personal Blog"
    links = [
 
       {x-twitter = "https://x.com/AchintyanandS" },
-      {instagram = "https://instagram.com/achinty_anand/"},
+      {instagram = "https://instagram.com/achinty_anand/" },
+      {bluesky = "https://bsky.app/profile/achintyanand.bsky.social" },
    ]
