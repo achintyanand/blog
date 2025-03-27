@@ -12,7 +12,7 @@
   <title>The Personal Blog</title>
   <meta name="title" content="The Personal Blog" />
   
-  
+  <meta name="description" content="I provide my experience with techonology. Mostly I talk about linux and science realated topics. I also give book recommendation." />
   
   
   
@@ -72,12 +72,14 @@
   <meta property="og:url" content="//localhost:1313/">
   <meta property="og:site_name" content="The Personal Blog">
   <meta property="og:title" content="The Personal Blog">
+  <meta property="og:description" content="I provide my experience with techonology. Mostly I talk about linux and science realated topics. I also give book recommendation.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="The Personal Blog">
+  <meta name="twitter:description" content="I provide my experience with techonology. Mostly I talk about linux and science realated topics. I also give book recommendation.">
 
   
   <script type="application/ld+json">
@@ -159,7 +161,11 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
     
     
@@ -250,6 +256,16 @@
 
 
 
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
   
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
@@ -275,6 +291,10 @@
     <h1 class="text-4xl font-extrabold">
       Achintyanand Singh
     </h1>
+    
+    <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
+      I am a live long learner.
+    </h2>
     
     <div class="mt-1 text-2xl">
       
@@ -337,7 +357,11 @@
 
     </div>
   </header>
-  <section class="prose dark:prose-invert"></section>
+  <section class="prose dark:prose-invert"><p>Hey there! Welcome to The Personal Blog!</p>
+<p>I’ve always been fascinated by technology and science, and this blog is my little corner of the internet where I get to share my journey. I’m not a professional writer, but that won’t stop me from putting my thoughts out there—I believe that learning is all about sharing, growing, and figuring things out together.</p>
+<p>I see myself as a lifelong learner—just a few steps behind, always eager to catch up. I’d love for you to join me in learning and discovery.</p>
+<p>Looking forward to sharing this adventure with you.</p>
+</section>
 </article>
 <section>
   
@@ -364,7 +388,13 @@
 
   
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
